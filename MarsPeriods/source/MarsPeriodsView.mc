@@ -68,8 +68,8 @@ class MarsPeriodsView extends WatchUi.View {
 		return Gregorian.moment(options);
 	}
 	
-	// function cMarsDate convert a garmin moment into a Mars Calendar Periodic format: PxxWyyDz
-	function cMarsDate(garminMomentNow) {
+	// function calendarMarsDate convert a garmin moment into a Mars Calendar Periodic format: PxxWyyDz
+	function calendarMarsDate(garminMomentNow) {
 		var date = Gregorian.info(garminMomentNow, Time.FORMAT_SHORT);
 		var marsYear = date.year;
 		var yearStart = startDateOfMarsYear(marsYear);
@@ -81,7 +81,24 @@ class MarsPeriodsView extends WatchUi.View {
 		}
 		
 		var nbDays = garminMomentNow.subtract(yearStart).value()/86400; // 86400 is the number of seconds in one day
-	
+		var nbWeeks = nbDays.toNumber()/7;
+		var mPeriod = (nbWeeks / 4) + 1;
+		var mWeek = (nbWeeks % 4) + 1; // % is modulo
+		var mDay = Gregorian.info(garminMomentNow, Time.FORMAT_SHORT).day_of_week;
+		
+		if (mPeriod == 14) { // there is no P14, so 2 options: P13W5 or next year P1W1
+			var week = nbWeeksInP13(marsYear); //retrieve number of weeks in P13
+			if (week == 5) { // we are in P13W5
+				mPeriod = 13;
+				mWeek = 5;
+			} else if (week == 4) { // we are in next year
+				marsYear = marsYear + 1;
+				mPeriod = 1;
+				mWeek = 1;
+			}
+		}
+		var output = "P"+mPeriod+"W"+mWeek+" D"+mDay;
+		return output;
 	}
 	
 	
@@ -98,34 +115,21 @@ class MarsPeriodsView extends WatchUi.View {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() {
-    	var date = startDateOfMarsYear(2018);
-    	//System.println(Gregorian.info(date, Time.FORMAT_SHORT).day_of_week);
-    	
-    	System.println(nbWeeksInP13(2018));
-    
-    
-    
-    	/*
-	
 		// period
-        var todayPeriod = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-		var datePeriodString = Lang.format("$1$$2$$3$",[todayPeriod.day,todayPeriod.month,todayPeriod.year]); 
+		var now = new Time.Moment(Time.now().value());
 		var viewPeriod = View.findDrawableById("MarsPeriodLabel");
-        var array = WatchUi.loadResource(Rez.JsonData.jsonFile);
-        viewPeriod.setText(array[datePeriodString]);
+        viewPeriod.setText(calendarMarsDate(now));
         
         // time
-		var timeString = Lang.format("$1$:$2$",[todayPeriod.hour, todayPeriod.min.format("%02d")]);
+        var todayDateTime = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var timeString = Lang.format("$1$:$2$",[todayDateTime.hour, todayDateTime.min.format("%02d")]);
         var viewTime = View.findDrawableById("TimeLabel");
         viewTime.setText(timeString);
         
         // date
-        var todayDate = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var dateString = Lang.format("$1$ $2$ $3$",[todayDate.day,todayDate.month,todayDate.year]);
+		var dateString = Lang.format("$1$ $2$ $3$",[todayDateTime.day,todayDateTime.month,todayDateTime.year]);
     	var viewDate = View.findDrawableById("DateLabel");
     	viewDate.setText(dateString);
-  
-    	*/
     }
 
     // Update the view
