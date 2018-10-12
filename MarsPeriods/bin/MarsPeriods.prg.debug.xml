@@ -1,56 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="12" pc="268435456" symbol="nbWeeksInP13"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="13" pc="268435460" symbol="nbWeeksInP13"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="21" pc="268435476" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="22" pc="268435480" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="27" pc="268435524" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="28" pc="268435543" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="30" pc="268435580" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="32" pc="268435728" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="33" pc="268435772" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="35" pc="268435775" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="36" pc="268435825" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="38" pc="268435828" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="39" pc="268435878" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="41" pc="268435881" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="42" pc="268435931" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="44" pc="268435934" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="45" pc="268435984" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="47" pc="268435987" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="48" pc="268436031" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="50" pc="268436034" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="51" pc="268436078" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="53" pc="268436081" symbol="startDate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="57" pc="268436100" symbol="initialize"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="58" pc="268436104" symbol="initialize"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="6" lineNum="62" pc="268436123" symbol="onLayout"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="6" lineNum="63" pc="268436127" symbol="onLayout"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="7" lineNum="69" pc="268436165" symbol="onShow"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="7" lineNum="70" pc="268436169" symbol="onShow"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="7" lineNum="71" pc="268436187" symbol="onShow"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="8" lineNum="99" pc="268436239" symbol="onUpdate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="8" lineNum="101" pc="268436243" symbol="onUpdate"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsView.mc" id="9" lineNum="107" pc="268436264" symbol="onHide"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="11" lineNum="5" pc="268436269" symbol="initialize"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="11" lineNum="6" pc="268436273" symbol="initialize"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="12" lineNum="10" pc="268436292" symbol="onStart"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="13" lineNum="14" pc="268436297" symbol="onStop"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="14" lineNum="18" pc="268436302" symbol="getInitialView"/>
-<entry filename="C:\\temp_JC\\Eclipse\\Workspace\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="14" lineNum="19" pc="268436306" symbol="getInitialView"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="20" pc="268436344" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="24" pc="268436356" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="25" pc="268436512" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="26" pc="268436545" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="27" pc="268436597" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="28" pc="268436768" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="29" pc="268436801" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="30" pc="268436853" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="31" pc="268436899" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="32" pc="268437055" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="33" pc="268437088" symbol="MarsWidget"/>
-<entry filename="C:\\Windows\\System32\\Rez" id="21" lineNum="36" pc="268437140" symbol="MarsWidget"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="13" pc="268435456" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="14" pc="268435460" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="15" pc="268435475" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="16" pc="268435496" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="17" pc="268435529" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="18" pc="268435544" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="19" pc="268435559" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="21" pc="268435578" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="22" pc="268435585" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="24" pc="268435647" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="25" pc="268435654" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="27" pc="268435657" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="28" pc="268435664" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="3" lineNum="30" pc="268435667" symbol="nbWeeksInP13"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="36" pc="268435671" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="37" pc="268435675" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="42" pc="268435719" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="43" pc="268435738" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="45" pc="268435775" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="47" pc="268435923" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="48" pc="268435967" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="50" pc="268435970" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="51" pc="268436020" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="53" pc="268436023" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="54" pc="268436073" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="56" pc="268436076" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="57" pc="268436126" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="59" pc="268436129" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="60" pc="268436179" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="62" pc="268436182" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="63" pc="268436226" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="65" pc="268436229" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="66" pc="268436273" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="4" lineNum="68" pc="268436276" symbol="startDateOfMarsYear"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="72" pc="268436295" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="73" pc="268436299" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="74" pc="268436330" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="75" pc="268436340" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="78" pc="268436355" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="79" pc="268436371" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="80" pc="268436390" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="5" lineNum="83" pc="268436408" symbol="cMarsDate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="6" lineNum="88" pc="268436439" symbol="initialize"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="6" lineNum="89" pc="268436443" symbol="initialize"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="7" lineNum="93" pc="268436462" symbol="onLayout"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="7" lineNum="94" pc="268436466" symbol="onLayout"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="8" lineNum="100" pc="268436504" symbol="onShow"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="8" lineNum="101" pc="268436508" symbol="onShow"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="8" lineNum="104" pc="268436526" symbol="onShow"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="9" lineNum="132" pc="268436559" symbol="onUpdate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="9" lineNum="134" pc="268436563" symbol="onUpdate"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsView.mc" id="10" lineNum="140" pc="268436584" symbol="onHide"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="12" lineNum="5" pc="268436589" symbol="initialize"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="12" lineNum="6" pc="268436593" symbol="initialize"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="13" lineNum="10" pc="268436612" symbol="onStart"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="14" lineNum="14" pc="268436617" symbol="onStop"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="15" lineNum="18" pc="268436622" symbol="getInitialView"/>
+<entry filename="C:\\temp_JC\\Git_Repos\\MarsPeriodsRepo\\MarsPeriods\\source\\MarsPeriodsApp.mc" id="15" lineNum="19" pc="268436626" symbol="getInitialView"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="20" pc="268436664" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="24" pc="268436676" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="25" pc="268436832" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="26" pc="268436865" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="27" pc="268436917" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="28" pc="268437088" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="29" pc="268437121" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="30" pc="268437173" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="31" pc="268437219" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="32" pc="268437375" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="33" pc="268437408" symbol="MarsWidget"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="22" lineNum="36" pc="268437460" symbol="MarsWidget"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
@@ -60,6 +80,7 @@
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="18" method="true" symbol="startDateOfMarsYear"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -83,11 +104,11 @@
 <entry id="8389348" symbol="font"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="8388939" symbol="day"/>
+<entry id="19" method="true" symbol="cMarsDate"/>
 <entry field="true" id="8388938" symbol="month"/>
 <entry id="12" module="true" symbol="Layouts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="18" method="true" symbol="startDate"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry field="true" id="14" symbol="jsonFile"/>
 <entry id="11" module="true" symbol="Menus"/>
@@ -95,24 +116,35 @@
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435475" name="yearcurrent" stackId="2" startPc="268435460"/>
-<entry endPc="268435476" name="marsyear" stackId="1" startPc="268435456"/>
-<entry endPc="268436099" name="iDay" stackId="4" startPc="268435480"/>
-<entry endPc="268436099" name="date" stackId="3" startPc="268435480"/>
-<entry endPc="268436099" name="options" stackId="2" startPc="268435480"/>
-<entry endPc="268436100" name="marsyear" stackId="1" startPc="268435476"/>
-<entry endPc="268436165" name="dc" stackId="1" startPc="268436123"/>
-<entry endPc="268436238" name="date" stackId="1" startPc="268436169"/>
-<entry endPc="268436264" name="dc" stackId="1" startPc="268436239"/>
-<entry endPc="268436297" name="state" stackId="1" startPc="268436292"/>
-<entry endPc="268436302" name="state" stackId="1" startPc="268436297"/>
-<entry endPc="268437177" name="rez_cmp_local_bitmap_TimeLabel" stackId="4" startPc="268436356"/>
-<entry endPc="268437177" name="rez_cmp_local_bitmap_DateLabel_fontHeight" stackId="7" startPc="268436356"/>
-<entry endPc="268437177" name="rez_cmp_local_bitmap_DateLabel" stackId="6" startPc="268436356"/>
-<entry endPc="268437177" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="5" startPc="268436356"/>
-<entry endPc="268437177" name="rez_cmp_local_bitmap_MarsPeriodLabel_fontHeight" stackId="3" startPc="268436356"/>
-<entry endPc="268437177" name="rez_cmp_local_bitmap_MarsPeriodLabel" stackId="2" startPc="268436356"/>
-<entry endPc="268437178" name="dc" stackId="1" startPc="268436344"/>
+<entry endPc="268435670" name="nbWP13" stackId="8" startPc="268435460"/>
+<entry endPc="268435670" name="p12Current" stackId="5" startPc="268435460"/>
+<entry endPc="268435670" name="yearNextMoment" stackId="3" startPc="268435460"/>
+<entry endPc="268435670" name="nbDays" stackId="7" startPc="268435460"/>
+<entry endPc="268435670" name="momentDiff" stackId="6" startPc="268435460"/>
+<entry endPc="268435670" name="days12x28" stackId="4" startPc="268435460"/>
+<entry endPc="268435670" name="yearCurrentMoment" stackId="2" startPc="268435460"/>
+<entry endPc="268435671" name="marsyear" stackId="1" startPc="268435456"/>
+<entry endPc="268436294" name="iDay" stackId="4" startPc="268435675"/>
+<entry endPc="268436294" name="date" stackId="3" startPc="268435675"/>
+<entry endPc="268436294" name="options" stackId="2" startPc="268435675"/>
+<entry endPc="268436295" name="marsyear" stackId="1" startPc="268435671"/>
+<entry endPc="268436438" name="marsYear" stackId="3" startPc="268436299"/>
+<entry endPc="268436438" name="yearStart" stackId="4" startPc="268436299"/>
+<entry endPc="268436438" name="nbDays" stackId="5" startPc="268436299"/>
+<entry endPc="268436438" name="date" stackId="2" startPc="268436299"/>
+<entry endPc="268436439" name="garminMomentNow" stackId="1" startPc="268436295"/>
+<entry endPc="268436504" name="dc" stackId="1" startPc="268436462"/>
+<entry endPc="268436558" name="date" stackId="1" startPc="268436508"/>
+<entry endPc="268436584" name="dc" stackId="1" startPc="268436559"/>
+<entry endPc="268436617" name="state" stackId="1" startPc="268436612"/>
+<entry endPc="268436622" name="state" stackId="1" startPc="268436617"/>
+<entry endPc="268437497" name="rez_cmp_local_bitmap_TimeLabel" stackId="4" startPc="268436676"/>
+<entry endPc="268437497" name="rez_cmp_local_bitmap_DateLabel_fontHeight" stackId="7" startPc="268436676"/>
+<entry endPc="268437497" name="rez_cmp_local_bitmap_DateLabel" stackId="6" startPc="268436676"/>
+<entry endPc="268437497" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="5" startPc="268436676"/>
+<entry endPc="268437497" name="rez_cmp_local_bitmap_MarsPeriodLabel_fontHeight" stackId="3" startPc="268436676"/>
+<entry endPc="268437497" name="rez_cmp_local_bitmap_MarsPeriodLabel" stackId="2" startPc="268436676"/>
+<entry endPc="268437498" name="dc" stackId="1" startPc="268436664"/>
 </localVars>
 <annotations/>
 <functions>
@@ -120,8 +152,12 @@
 <param id="marsyear"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="startDate" parent="MarsPeriodsView">
+<functionEntry accessMode="public" name="startDateOfMarsYear" parent="MarsPeriodsView">
 <param id="marsyear"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="cMarsDate" parent="MarsPeriodsView">
+<param id="garminMomentNow"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="MarsPeriodsView">

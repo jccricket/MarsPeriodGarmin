@@ -9,17 +9,31 @@ class MarsPeriodsView extends WatchUi.View {
 	// function nbWeeksInP13 returns number of weeks (integer) in P13
 	// function takes a year (integer) as parameter
 	// Beta from the MarsTime technical specs
+	// refer to https://developer.garmin.com/connect-iq/api-docs/ regarding moment and duration in Garmin SDK
 	function nbWeeksInP13(marsyear) {
-		var yearCurrentMoment = startDate(marsyear);  //get garmin moment for this year start date
-		var yearNextMoment = startDate(marsyear + 1); //get garmin moment for next year start date
-		var p12Current = yearCurrentMoment + 
-	
+		var yearCurrentMoment = startDateOfMarsYear(marsyear);  //get garmin moment for this year start date
+		var yearNextMoment = startDateOfMarsYear(marsyear + 1); //get garmin moment for next year start date
+		var days12x28 = new Time.Duration(29030400); // 12 periods of 28 days times number of second in one day
+		var p12Current = yearCurrentMoment.add(days12x28); //moment in this year that correspond to end of P12
+		var momentDiff = yearNextMoment.subtract(p12Current); //get duration between the 2 moments (start of next year P1 minus end of P12 current year)
+		var nbDays = momentDiff.value()/86400; //86400 is number of seconds in one day.
+
+		var nbWP13 = 1; //error code 1
+		switch (nbDays.toNumber()) {
+			case 28:
+				nbWP13 = 4;
+				break;
+			case 35:
+				nbWP13 = 5;
+				break;
+		}
+		return nbWP13;
 	}
 	
 	
-	// function startDate returns the first day of the Mars year
+	// function startDate returns the first day of the Mars year in a Garmin moment format
 	// that contains the input year (integer) 
-	function startDate(marsyear) {
+	function startDateOfMarsYear(marsyear) {
 		var options = {
     		:year   => marsyear,
     		:month  => 1,
@@ -52,8 +66,24 @@ class MarsPeriodsView extends WatchUi.View {
 				break;
 		} 
 		return Gregorian.moment(options);
-		
 	}
+	
+	// function cMarsDate convert a garmin moment into a Mars Calendar Periodic format: PxxWyyDz
+	function cMarsDate(garminMomentNow) {
+		var date = Gregorian.info(garminMomentNow, Time.FORMAT_SHORT);
+		var marsYear = date.year;
+		var yearStart = startDateOfMarsYear(marsYear);
+		
+		// if now is earlier than start of the Mars year, we are in previous Mars year...
+		if ( garminMomentNow.lessThan(yearStart) ) {
+			marsYear = marsYear.toNumber() - 1;
+			yearStart = startDateOfMarsYear(marsYear);
+		}
+		
+		var nbDays = garminMomentNow.subtract(yearStart).value()/86400; // 86400 is the number of seconds in one day
+	
+	}
+	
 	
     function initialize() {
         View.initialize();
@@ -68,8 +98,10 @@ class MarsPeriodsView extends WatchUi.View {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() {
-    	var date = startDate(2018);
-    	System.println(Gregorian.info(date, Time.FORMAT_SHORT).day_of_week);
+    	var date = startDateOfMarsYear(2018);
+    	//System.println(Gregorian.info(date, Time.FORMAT_SHORT).day_of_week);
+    	
+    	System.println(nbWeeksInP13(2018));
     
     
     
